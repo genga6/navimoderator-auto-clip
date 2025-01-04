@@ -1,0 +1,11 @@
+services:
+  flipclip:
+    build:
+      context: ../
+      dockerfile: ./.devcontainer/dev.Dockerfile
+    env_file:
+      - ../.env
+    volumes:
+      - ..:/workspaces/flipclip:cached
+    environment:
+      - PYTHONPATH=/workspaces/flipclip/src
