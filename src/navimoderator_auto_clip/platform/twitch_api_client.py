@@ -1,7 +1,7 @@
 from navimoderator_auto_clip.platform.platform_integration import PlatformAPIClient
 
 class TwitchAPIClient(PlatformAPIClient):
-    def download_video(self, video_url, output_path):
+    def download_video(self, video_url: str, output_path: str, output_filename: str):
         # TwitchAPIを使用して動画取得
         pass
     
