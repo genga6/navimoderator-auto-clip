@@ -1,8 +1,8 @@
 {
-	"name": "flipclip",
+	"name": "navimoderator-auto-clip",
 	"dockerComposeFile": "docker-compose.yaml",
-	"service": "flipclip",
-	"workspaceFolder": "/workspaces/flipclip",
+	"service": "navimoderator-auto-clip",
+	"workspaceFolder": "/workspaces/navimoderator-auto-clip",
 	"overrideCommand": true,
 	"customizations": {
 		"vscode": {
