@@ -1,11 +1,11 @@
 services:
-  navimoderator-auto-clip:
+  navimoderator_auto_clip:
     build:
       context: ../
       dockerfile: ./.devcontainer/dev.Dockerfile
     env_file:
       - ../.env
     volumes:
-      - ..:/workspaces/navimoderator-auto-clip:cached
+      - ..:/workspaces/navimoderator_auto_clip:cached
     environment:
-      - PYTHONPATH=/workspaces/navimoderator-auto-clip/src
+      - PYTHONPATH=/workspaces/navimoderator_auto_clip/src
