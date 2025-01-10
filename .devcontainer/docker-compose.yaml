@@ -1,11 +1,11 @@
 services:
-  flipclip:
+  navimoderator_auto_clip:
     build:
       context: ../
       dockerfile: ./.devcontainer/dev.Dockerfile
     env_file:
       - ../.env
     volumes:
-      - ..:/workspaces/flipclip:cached
+      - ..:/workspaces/navimoderator_auto_clip:cached
     environment:
-      - PYTHONPATH=/workspaces/flipclip/src
+      - PYTHONPATH=/workspaces/navimoderator_auto_clip/src
