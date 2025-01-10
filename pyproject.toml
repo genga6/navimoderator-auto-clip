@@ -1,5 +1,5 @@
 [project]
-name = "navimoderator-auto-clip"
+name = "navimoderator_auto_clip"
 version = "0.0.1"
 description = "Add your description here"
 readme = "README.md"
@@ -46,4 +46,4 @@ ignore = ["E731","E741","F841","F821"]
 
 [tool.setuptools.packages.find]
 where = ["src"]
-include = ["navimoderator-auto-clip*"]
+include = ["navimoderator_auto_clip*"]
